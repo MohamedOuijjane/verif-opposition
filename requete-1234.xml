@@ -1,0 +1,9 @@
+<soapenv:Envelope xmlns:soapenv="http://schemas.xmlsoap.org/soap/envelope/"
+                  xmlns:ver="http://local.verifopposition">
+   <soapenv:Header/>
+   <soapenv:Body>
+      <ver:VerifOppositionRequest>
+         <ver:numeroImmatriculation>1234-AB-5</ver:numeroImmatriculation>
+      </ver:VerifOppositionRequest>
+   </soapenv:Body>
+</soapenv:Envelope>
